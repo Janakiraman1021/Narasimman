@@ -890,9 +890,9 @@ img.image_3 {
 
 .dummy_text {
     width: 100%;
-    background-color: white;
+    
     font-size: 16px;
-    color: #989797;
+    color:white;
     margin: 0px;
     padding-top: 30px;
 }
