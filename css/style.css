@@ -501,17 +501,18 @@ body {
 }
 
 img.image_1 {
-    width: 50%;
+    width: auto;
     float: right;
     position: relative;
+    direction: inherit;
 }
 
 img.image_2 {
-    width: 70%;
+    
     float: left;
     position: absolute;
-    top: 110px;
-    left: 90px;
+    top: 100px;
+    left: auto;
 }
 
 .main {
