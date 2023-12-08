@@ -1022,7 +1022,7 @@ input.Enter_text::placeholder {
     font-size: 18px;
     color: #ffffff;
     background-color: orange;
-    border-radius: 50%;
+    
     text-align: center;
     padding: 10px 0px;
     text-transform: uppercase;
