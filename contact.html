@@ -56,7 +56,25 @@
                         <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
                      </div>
                   </div>
-                  <div class="send_bt"><a href="#">SEND</a></div>
+                  <script>
+                     function msg(){
+                           let url =
+                              "https://wa.me/917604913189?text=" + // Ubah nomor whatsapp dengan nomor kalian
+                              "Name : "  + "%0a" +
+                              "Email : " +"%0a" +
+                              "Phone : "+ "%0a" + "%0a" +
+                              "Message : " + "%0a";
+                        
+                           window.open(url, "_black").focus();
+                        }
+                  </script>
+                  <div class="send_bt">
+                     <center>
+                     <button class="send_bt_new" onclick="msg()">
+                        Send
+                     </button>
+                  </center>
+                  </div>
                </div>
             </div>
             <div>
