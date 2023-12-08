@@ -1016,13 +1016,12 @@ input.Enter_text::placeholder {
     width: auto;
 }
 .send_bt .send_bt_new{
-    width: 10%;
+    width: auto;
     align-items: center;
     float: left;
     font-size: 18px;
     color: #ffffff;
     background-color: orange;
-    
     text-align: center;
     padding: 10px 0px;
     text-transform: uppercase;
